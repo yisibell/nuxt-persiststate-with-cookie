@@ -42,7 +42,7 @@ module.exports = {
     ],
   ],
 
-  // 配置也没有使用
+  // 配置也可以使用
   persiststate: {
     // your config
   }

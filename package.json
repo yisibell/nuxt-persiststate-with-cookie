@@ -14,5 +14,8 @@
     "cookie": "^0.5.0",
     "js-cookie": "^3.0.1",
     "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
   }
 }
