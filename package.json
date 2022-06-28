@@ -1,12 +1,26 @@
 {
   "name": "nuxt-persiststate-with-cookie",
   "version": "1.0.0",
-  "description": "A nuxt module to persist vuex state with cookie.",
+  "description": "A nuxt(2) module to persist vuex state with cookie.",
   "license": "MIT",
   "main": "lib/module.js",
   "files": [
     "lib"
   ],
+  "keywords": [
+    "nuxtjs",
+    "vuex-persistedstate",
+    "cookie",
+    "vuex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yisibell/nuxt-persiststate-with-cookie.git"
+  },
+  "homepage": "https://github.com/yisibell/nuxt-persiststate-with-cookie",
+  "bugs": {
+    "url": "https://github.com/yisibell/nuxt-persiststate-with-cookie/issues"
+  },
   "scripts": {
     "release": "npm publish --access=public"
   },
