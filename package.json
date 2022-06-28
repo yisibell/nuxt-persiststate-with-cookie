@@ -4,6 +4,13 @@
   "description": "A nuxt(2) module to persist vuex state with cookie.",
   "license": "MIT",
   "main": "lib/module.js",
+  "author": {
+    "name": "elenh",
+    "email": "yisiwings@163.com"
+  },
+  "contributors": [
+    "yisibell"
+  ],
   "files": [
     "lib"
   ],
