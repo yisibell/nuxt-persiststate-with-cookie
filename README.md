@@ -1,3 +1,15 @@
+
+<p align="center">
+  <a href="https://www.npmjs.org/package/nuxt-persiststate-with-cookie">
+    <img src="https://img.shields.io/npm/v/nuxt-persiststate-with-cookie.svg">
+  </a>
+  <a href="https://npmcharts.com/compare/nuxt-persiststate-with-cookie?minimal=true">
+    <img src="https://img.shields.io/npm/dm/nuxt-persiststate-with-cookie.svg">
+  </a>
+  <br>
+</p>
+
+
 # nuxt-persiststate-with-cookie
 
 A nuxt(2) module to persist vuex state with cookie.
