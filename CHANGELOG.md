@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.3.2
+
+
+### 🏡 Chore
+
+  - Add badge (efdf82b)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.3.1
 
 
