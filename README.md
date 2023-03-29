@@ -71,3 +71,7 @@ moduleObject.requireModule([
 |        `key`        |  `__NUXT_PERSISTEDSTATE_VUEX__`   |  `string`  |                                             指定存储 **cookie** 时使用的键名。                                             |
 |       `paths`       |            `['site']`             | `string[]` |                   指定要持久化的 `state` 路径。 默认会持久化 **~/store/site.ts** 模块下的所有 `state`。                    |
 | `setCookiesOptions` | `{ expires: 365, secure: false }` |  `object`  | 指定设置 **cookie** 时的配置对象。具体可参看 <a href="https://github.com/js-cookie/js-cookie"> js-cookie </a> 模块的 API。 |
+
+# CHANGE LOG
+
+see [change log](./CHANGELOG.md)
