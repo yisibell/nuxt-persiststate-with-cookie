@@ -64,7 +64,7 @@ module.exports = {
 }
 ```
 
-1. Apply to a third-party **nuxt module** via `requireModule` method.
+3. Apply to a third-party **nuxt module** via `requireModule` method.
 
 ```js
 // ...
@@ -83,7 +83,7 @@ moduleObject.requireModule([
 |      `enable`       |              `true`               | `boolean`  |    Whether to  enable **nuxt-persiststate-with-cookie** |
 |        `key`        |  `__NUXT_PERSISTEDSTATE_VUEX__`   |  `string`  |     Specifies the key name used when storing the **cookie**.       |
 |       `paths`       |            `['site']`             | `string[]` |    Specify the 'state' path to persist. By default, all `states` under the **~/store/site.ts** module will be persisted. |
-| `setCookiesOptions` | `{ expires: 365, secure: false }` |  `object`  | Specifies the configuration object for setting the **cookie**. For details, see [The API for the js cookie](https://github.com/js-cookie/js-cookie) module. |
+| `setCookiesOptions` | `{ expires: 365, secure: false }` |  `object`  | Specifies the configuration object for setting the **cookie**. For details, see [The API of js-cookie](https://github.com/js-cookie/js-cookie). |
 
 # CHANGE LOG
 
