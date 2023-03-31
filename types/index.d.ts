@@ -1,16 +1,9 @@
-import type { CookieAttributes } from 'js-cookie'
+import type { PersiststateModuleOptions } from '../src/interfaces/core'
 
-interface PersiststateModuleOptions {
-  enable?: boolean
-  key?: string
-  paths?: string[]
-  setCookiesOptions?: CookieAttributes
-}
+declare const persiststateModule: (
+  moduleOptions?: PersiststateModuleOptions
+) => void
 
-declare const persiststateModule: (moduleOptions?: PersiststateModuleOptions) => void
-
-export {
-  PersiststateModuleOptions
-}
+export { PersiststateModuleOptions }
 
 export default persiststateModule
