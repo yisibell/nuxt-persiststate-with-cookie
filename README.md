@@ -18,35 +18,36 @@ A nuxt(2) module to persist vuex state with cookie.
 
 ```bash
 # yarn
-$ yarn add nuxt-persiststate-with-cookie
+$ yarn add --dev nuxt-persiststate-with-cookie
 
 # npm
-$ npm i nuxt-persiststate-with-cookie
+$ npm i -D nuxt-persiststate-with-cookie
 ```
 
 # Usage
 
-可以使用如下几种方式进行应用 **nuxt-persiststate-with-cookie**。
+You can use the following methods to apply **nuxt-persiststate with cookie**.
 
-1. 基础用法。
+1. Basic.
 
 ```js
 // nuxt.config.js
+
 module.exports = {
   // ...
 
-  modules: [['nuxt-persiststate-with-cookie']],
+  buildModules: [['nuxt-persiststate-with-cookie']],
 }
 ```
 
-2. 带配置参数。
+2. With configuration parameters.
 
 ```js
 // nuxt.config.js
 module.exports = {
   // ...
 
-  modules: [
+  buildModules: [
     [
       'nuxt-persiststate-with-cookie',
       {
@@ -56,14 +57,14 @@ module.exports = {
     ],
   ],
 
-  // 配置也可以使用
+  // Or
   persiststate: {
     // your config
   },
 }
 ```
 
-3. 使用 `requireModule` 方法应用在第三方 **nuxt module** 中。
+1. Apply to a third-party **nuxt module** via `requireModule` method.
 
 ```js
 // ...
@@ -77,13 +78,13 @@ moduleObject.requireModule([
 
 # Options
 
-|        字段         |              默认值               |  数据类型  |                                                            说明                                                            |
-| :-----------------: | :-------------------------------: | :--------: | :------------------------------------------------------------------------------------------------------------------------: |
-|      `enable`       |              `true`               | `boolean`  |                                               是否对 `vuex` 开启数据持久化。                                               |
-|        `key`        |  `__NUXT_PERSISTEDSTATE_VUEX__`   |  `string`  |                                             指定存储 **cookie** 时使用的键名。                                             |
-|       `paths`       |            `['site']`             | `string[]` |                   指定要持久化的 `state` 路径。 默认会持久化 **~/store/site.ts** 模块下的所有 `state`。                    |
-| `setCookiesOptions` | `{ expires: 365, secure: false }` |  `object`  | 指定设置 **cookie** 时的配置对象。具体可参看 <a href="https://github.com/js-cookie/js-cookie"> js-cookie </a> 模块的 API。 |
+|   Key   |  Default value    |  Type  |      Description  |
+| :------: | :----------: | :--------: |:---------: |
+|      `enable`       |              `true`               | `boolean`  |    Whether to  enable **nuxt-persiststate-with-cookie** |
+|        `key`        |  `__NUXT_PERSISTEDSTATE_VUEX__`   |  `string`  |     Specifies the key name used when storing the **cookie**.       |
+|       `paths`       |            `['site']`             | `string[]` |    Specify the 'state' path to persist. By default, all `states` under the **~/store/site.ts** module will be persisted. |
+| `setCookiesOptions` | `{ expires: 365, secure: false }` |  `object`  | Specifies the configuration object for setting the **cookie**. For details, see [The API for the js cookie](https://github.com/js-cookie/js-cookie) module. |
 
 # CHANGE LOG
 
-see [change log](./CHANGELOG.md)
+see [CHANGE LOG](./CHANGELOG.md)
