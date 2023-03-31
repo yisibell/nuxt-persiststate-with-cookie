@@ -26,7 +26,7 @@ $ npm i -D nuxt-persiststate-with-cookie
 
 # Usage
 
-You can use the following methods to apply **nuxt-persiststate with cookie**.
+There are some ways for using **nuxt-persiststate with cookie**.
 
 1. Basic.
 
