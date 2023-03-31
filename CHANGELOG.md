@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v2.0.3
+
+
+### 🏡 Chore
+
+  - **docs:** Update readme (79d940c)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.0.2
 
 
