@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v2.0.0
+
+
+### 🚀 Enhancements
+
+  - ⚠️  Migrate to typescript (5ee9579)
+
+#### ⚠️  Breaking Changes
+
+  - ⚠️  Migrate to typescript (5ee9579)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.3.2
 
 

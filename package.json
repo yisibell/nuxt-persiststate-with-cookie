@@ -1,6 +1,6 @@
 {
   "name": "nuxt-persiststate-with-cookie",
-  "version": "1.3.2",
+  "version": "2.0.0",
   "description": "A nuxt(2) module to persist vuex state with cookie.",
   "license": "MIT",
   "main": "lib/module.js",
