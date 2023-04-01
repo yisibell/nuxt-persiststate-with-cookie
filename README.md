@@ -82,7 +82,7 @@ moduleObject.requireModule([
 | :------: | :----------: | :--------: |:---------: |
 |      `enable`       |              `true`               | `boolean`  |    Whether to  enable **nuxt-persiststate-with-cookie** |
 |        `key`        |  `__NUXT_PERSISTEDSTATE_VUEX__`   |  `string`  |     Specifies the key name used when storing the **cookie**.       |
-|       `paths`       |            `['site']`             | `string[]` |    Specify the 'state' path to persist. By default, all `states` under the **~/store/site.ts** module will be persisted. |
+|       `paths`       |            `['site']`             | `string[]` |    Specify the `state` path to persist. By default, all `states` under the **~/store/site.ts** module will be persisted. |
 | `setCookiesOptions` | `{ expires: 365, secure: false }` |  `object`  | Specifies the configuration object for setting the **cookie**. For details, see [The API of js-cookie](https://github.com/js-cookie/js-cookie). |
 
 # CHANGE LOG
